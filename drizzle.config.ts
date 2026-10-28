@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { defineConfig } from 'drizzle-kit';
 
 export default defineConfig({
@@ -8,3 +9,5 @@ export default defineConfig({
     url: process.env.DATABASE_URL!,
   },
 });
+
+//
